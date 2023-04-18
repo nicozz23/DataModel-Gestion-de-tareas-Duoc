@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB3B22B1-BF6E-5492-4D50-422095E949B6" name="Cuenta_usuario">
+<createdBy>brpin</createdBy>
+<createdTime>2022-08-30 22:47:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Mail_id" id="18E52CFC-E5A1-591D-7E32-BBCAFECC2140">
+<createdBy>Bryan</createdBy>
+<createdTime>2022-10-23 00:36:43 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usuario_Rut" id="EB72A9B9-ADF4-48EB-963D-87F5B9E855DA">
+<createdBy>Bryan</createdBy>
+<createdTime>2022-10-23 00:44:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<delegate>D27B1FE4-3146-7AB6-C000-718E27FEE067</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="988B3E61-BEC3-0E4B-E3ED-E2BCD749BCD7" referredColumn="D27B1FE4-3146-7AB6-C000-718E27FEE067"/>
+</associations>
+</Column>
+<Column name="Rol_usuario_Id_rol" id="1075AD67-89CC-BD08-A82A-CD6C5237A880">
+<createdBy>Bryan</createdBy>
+<createdTime>2022-10-23 00:45:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>02FD5650-9C98-F9EC-52A2-18F2A3873049</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD72226F-C95C-59C2-C1D7-F466D92AA3F4" referredColumn="02FD5650-9C98-F9EC-52A2-18F2A3873049"/>
+</associations>
+</Column>
+<Column name="Contraseña" id="7EF9E5BB-BD9C-6AEF-7B73-A9328A987C83">
+<createdBy>Bryan</createdBy>
+<createdTime>2022-10-23 00:50:17 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="3866550E-1BCA-B1C9-52E4-95F28C5368A9">
+<createdBy>Bryan</createdBy>
+<createdTime>2022-10-23 00:50:17 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E381C0B6-8741-4048-A45A-CF9CCCD4B834" name="Usuario_PK">
+<createdBy>brpin</createdBy>
+<createdTime>2022-08-30 22:48:09 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18E52CFC-E5A1-591D-7E32-BBCAFECC2140"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E5AF8DC-484D-42CE-60B3-C5A18B6CF9B1" name="Cuenta_Usuario_FK">
+<createdBy>Bryan</createdBy>
+<createdTime>2022-10-23 00:44:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB72A9B9-ADF4-48EB-963D-87F5B9E855DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25E8E5FF-0909-04DA-FB05-B36FC3A7E966" name="Cuenta_Rol_usuario_FK">
+<createdBy>Bryan</createdBy>
+<createdTime>2022-10-23 00:45:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1075AD67-89CC-BD08-A82A-CD6C5237A880"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="EEA69BA3-68B2-9112-C4FD-6F5F563A5C7F" mainViewID="D78D9CA9-D52A-3B36-CD90-83C8EC42348C">
+<createdBy>brpin</createdBy>
+<createdTime>2022-08-30 22:45:17 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos_2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

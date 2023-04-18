@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C62270E2-DBFE-3A6C-6AE5-3785EDD7133A" name="Rol_usuario">
+<createdBy>brpin</createdBy>
+<createdTime>2022-08-30 22:49:32 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_rol" id="02FD5650-9C98-F9EC-52A2-18F2A3873049">
+<createdBy>brpin</createdBy>
+<createdTime>2022-08-30 22:50:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_rol" id="CBC6506A-1BDC-AA62-D2A0-F8F4ED2470E4">
+<createdBy>brpin</createdBy>
+<createdTime>2022-08-30 22:50:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="373A73FB-3081-DDE3-9A05-9BA983297C5D">
+<createdBy>brpin</createdBy>
+<createdTime>2022-08-30 22:50:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="426D0623-E789-62B8-34C2-AD59E8A21515" name="Rol_usuario_PK">
+<createdBy>brpin</createdBy>
+<createdTime>2022-08-30 22:54:46 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02FD5650-9C98-F9EC-52A2-18F2A3873049"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

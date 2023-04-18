@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="81223CD2-E158-C2E4-677E-C57E70936728" name="Tarjeta_Progeso_FK">
+<createdBy>brpin</createdBy>
+<createdTime>2022-08-30 23:11:55 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<containerWithKeyObject>59E78472-ECF2-85B7-D5FF-B7D75FB421DF</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>DA6B6087-E2F6-EB49-53B1-E46C7ADBA790</localFKIndex>
+<keyObject>D633B45D-F389-201A-068F-FE00E69D3F2F</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

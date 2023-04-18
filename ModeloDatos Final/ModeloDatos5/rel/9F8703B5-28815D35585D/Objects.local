@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="DC70D0DD-68AE-8607-E103-AB2AC936CCFC" name="Cargo" seqName="seg_0"/>
+   <object objectType="Table" objectID="F733DE3F-9DF3-DAD1-F43B-366EC25D0247" name="Cargo_usuario" seqName="seg_0"/>
+   <object objectType="Table" objectID="CB3B22B1-BF6E-5492-4D50-422095E949B6" name="Cuenta_usuario" seqName="seg_0"/>
+   <object objectType="Table" objectID="0E1BBBAD-F947-66B3-2F08-40A2BE8F3BB5" name="Empresa" seqName="seg_0"/>
+   <object objectType="Table" objectID="2D1D6275-04CD-8ECF-CCAB-DF8FFB0765BC" name="Equipo" seqName="seg_0"/>
+   <object objectType="Table" objectID="972CF20E-DA6E-3F88-6DF7-C330AC5C9DD2" name="Estado" seqName="seg_0"/>
+   <object objectType="Table" objectID="3A529670-2D30-1D89-7394-82F039E1B8C1" name="Proceso(flujo de tareas)" seqName="seg_0"/>
+   <object objectType="Table" objectID="4E29C545-4BC8-DA70-EF35-9257FBC18CCA" name="Progeso" seqName="seg_0"/>
+   <object objectType="Table" objectID="C62270E2-DBFE-3A6C-6AE5-3785EDD7133A" name="Rol_usuario" seqName="seg_0"/>
+   <object objectType="Table" objectID="C89400A1-F905-A03B-B881-6CE3A058AB59" name="Tarea" seqName="seg_0"/>
+   <object objectType="Table" objectID="AB657163-6064-D006-9557-35EAC714655F" name="TareaSubordinada" seqName="seg_0"/>
+   <object objectType="Table" objectID="59E78472-ECF2-85B7-D5FF-B7D75FB421DF" name="Tarjeta" seqName="seg_0"/>
+   <object objectType="Table" objectID="50B6A8A7-4C7A-92AD-0F99-8B87448D9C06" name="Unidad(depto)" seqName="seg_0"/>
+   <object objectType="Table" objectID="FD38B25D-1589-23C1-F5E2-4ED3D0717881" name="Usuario" seqName="seg_0"/>
+   <object objectType="Table" objectID="272981E4-B397-D064-7E7C-8213F428146E" name="Usuario_equipo" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="8004B48F-5E41-BBC1-76F6-2FA6D604E5C5" name="Cargo_usuario_Cargo_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="BF0FE49F-52DA-DF15-9941-2A1AD41572CB" name="Cargo_usuario_Empresa_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="84C7022F-1389-8C0F-12D2-53EB9E6EC4D3" name="Cargo_usuario_Usuario_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="FD72226F-C95C-59C2-C1D7-F466D92AA3F4" name="Cuenta_Rol_usuario_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="988B3E61-BEC3-0E4B-E3ED-E2BCD749BCD7" name="Cuenta_Usuario_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="CD4B7CC7-AA5C-3753-0729-7F562B17A4B1" name="Equipo_Unidad_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="1A400CED-FA75-8D4C-739A-09FE39D1B35E" name="Proceso_Equipo_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="CE7CB670-7494-9E41-CFFE-B81C6C4F6A48" name="Proceso_Usuario_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="097A6D01-237E-35FC-38E6-4D57B5102711" name="TareaSubordinada_Tarea_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6D9D87C1-E129-F6E9-367F-1B002F9E5C4B" name="Tarea_Estado_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="65D261F8-2AB5-760D-B7A2-E0511FC10AE7" name="Tarea_Proceso_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="120BE431-0F0F-1EC5-659F-045BECAC3D52" name="Tarea_Tarjeta_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="089BF461-1E02-F71D-9ACD-25BC2D66D50F" name="Tarea_Usuario_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="19F64F2C-C784-44B1-9B0B-0724F3E67169" name="Tarea_Usuario_FKv1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="AAA5A83C-242D-E75B-9FBE-616B74B3CBC2" name="Tarjeta_Equipo_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="81223CD2-E158-C2E4-677E-C57E70936728" name="Tarjeta_Progeso_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9EE6DB47-5167-5D1A-9996-3EE3AFF1D680" name="Unidad_Empresa_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D58F5A5E-0DD7-5B41-92E2-D0460AD9F7A3" name="Usuario_equipo_Cuenta_usuario_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6166904B-0741-B081-F50E-BB46171D6358" name="Usuario_equipo_Equipo_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

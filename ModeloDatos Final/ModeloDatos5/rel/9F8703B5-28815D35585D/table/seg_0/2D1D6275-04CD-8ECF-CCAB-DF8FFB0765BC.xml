@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D1D6275-04CD-8ECF-CCAB-DF8FFB0765BC" name="Equipo">
+<createdBy>Admin</createdBy>
+<createdTime>2022-10-13 23:09:26 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Equipo" id="40712326-B68D-4D18-FD68-4F87CD2E0133">
+<createdBy>Admin</createdBy>
+<createdTime>2022-10-13 23:10:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_equipo" id="F55C4598-4D9A-FC82-3DCA-217DDCAF7AF7">
+<createdBy>Admin</createdBy>
+<createdTime>2022-10-13 23:10:02 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="6B0BCA00-7D8C-14BE-C5C0-FB672116D7B1">
+<createdBy>Admin</createdBy>
+<createdTime>2022-10-13 23:10:02 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Unidad_Id_unidad" id="F0F9F6CA-744D-0698-EEC4-FB0AA9B858A4">
+<createdBy>Admin</createdBy>
+<createdTime>2022-10-13 23:24:50 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>E774CA12-C490-5C40-008C-BDE0316B5F23</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD4B7CC7-AA5C-3753-0729-7F562B17A4B1" referredColumn="E774CA12-C490-5C40-008C-BDE0316B5F23"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A66E432-1620-540B-BF09-D7FA5F52D36A" name="Equipo_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2022-10-13 23:10:02 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40712326-B68D-4D18-FD68-4F87CD2E0133"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E167B741-CB6A-134D-E7E0-52AA71C2C52A" name="Equipo_Unidad_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2022-10-13 23:24:50 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0F9F6CA-744D-0698-EEC4-FB0AA9B858A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

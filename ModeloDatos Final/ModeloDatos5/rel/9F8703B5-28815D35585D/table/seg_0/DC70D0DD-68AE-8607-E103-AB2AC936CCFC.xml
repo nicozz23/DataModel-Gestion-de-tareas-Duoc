@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC70D0DD-68AE-8607-E103-AB2AC936CCFC" name="Cargo">
+<createdBy>Admin</createdBy>
+<createdTime>2022-10-13 22:30:58 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Cargo" id="B3FAD22C-DA35-70B0-34CC-ECDBF091CE30">
+<createdBy>Admin</createdBy>
+<createdTime>2022-10-13 22:31:50 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_cargo" id="B0A3EB84-F00F-9438-C5D8-2E97BE703028">
+<createdBy>Admin</createdBy>
+<createdTime>2022-10-13 22:31:50 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion_cargo" id="3D94701B-C2DC-B13D-371B-6ECF6BFB7D9C">
+<createdBy>Admin</createdBy>
+<createdTime>2022-10-13 22:31:50 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D70C7FB9-B163-4B61-83E1-F46C43E6C4C0" name="Cargo_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2022-10-13 22:31:50 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3FAD22C-DA35-70B0-34CC-ECDBF091CE30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

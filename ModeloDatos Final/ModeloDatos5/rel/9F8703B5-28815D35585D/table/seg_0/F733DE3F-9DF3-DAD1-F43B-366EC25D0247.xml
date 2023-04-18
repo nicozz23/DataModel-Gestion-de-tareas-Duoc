@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F733DE3F-9DF3-DAD1-F43B-366EC25D0247" name="Cargo_usuario">
+<createdBy>Admin</createdBy>
+<createdTime>2022-10-13 22:32:08 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Estado" id="CF6F4865-BE8B-C0AC-A55D-DBCB08A1DE46">
+<createdBy>Admin</createdBy>
+<createdTime>2022-10-13 22:32:42 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cargo_Id_Cargo" id="FE8A47AB-6BA1-8A21-28D4-80A2A7DBDAE3">
+<createdBy>Admin</createdBy>
+<createdTime>2022-10-13 22:32:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>B3FAD22C-DA35-70B0-34CC-ECDBF091CE30</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8004B48F-5E41-BBC1-76F6-2FA6D604E5C5" referredColumn="B3FAD22C-DA35-70B0-34CC-ECDBF091CE30"/>
+</associations>
+</Column>
+<Column name="Empresa_Rut_Empresa" id="0EF7CC73-5E6D-8EE2-9961-6CC5A2EC617F">
+<createdBy>Admin</createdBy>
+<createdTime>2022-10-13 22:35:26 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<delegate>29396DC9-4BE6-C9B7-DB2E-96A9E4AAA28B</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF0FE49F-52DA-DF15-9941-2A1AD41572CB" referredColumn="29396DC9-4BE6-C9B7-DB2E-96A9E4AAA28B"/>
+</associations>
+</Column>
+<Column name="Usuario_Rut" id="39C36F85-F86F-50FF-94A6-994D86EAA5EC">
+<createdBy>Bryan</createdBy>
+<createdTime>2022-10-23 00:41:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<delegate>D27B1FE4-3146-7AB6-C000-718E27FEE067</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84C7022F-1389-8C0F-12D2-53EB9E6EC4D3" referredColumn="D27B1FE4-3146-7AB6-C000-718E27FEE067"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1EA2CE4B-F246-1EEE-65A4-1C0305BC73A1" name="Cargo_usuario_Cargo_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2022-10-13 22:32:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE8A47AB-6BA1-8A21-28D4-80A2A7DBDAE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E8B7D80-6658-46CF-16EF-38C1D7CB0A73" name="Cargo_usuario_Empresa_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2022-10-13 22:35:26 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EF7CC73-5E6D-8EE2-9961-6CC5A2EC617F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BBA9DE68-F9EB-B5B1-2F69-C7FB77EF77A7" name="Cargo_usuario_Usuario_FK">
+<createdBy>Bryan</createdBy>
+<createdTime>2022-10-23 00:41:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39C36F85-F86F-50FF-94A6-994D86EAA5EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

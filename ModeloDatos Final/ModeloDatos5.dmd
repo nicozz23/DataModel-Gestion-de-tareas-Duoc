@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ModeloDatos5" id="5F9C1881-B5B0-224F-0F6B-999728E51FE5" version="3.5">
+<createdBy>brpin</createdBy>
+<createdTime>2022-08-30 22:45:17 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos_2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>5F9C1881-B5B0-224F-0F6B-999728E51FE5</designId>
+</OSDM_Design>

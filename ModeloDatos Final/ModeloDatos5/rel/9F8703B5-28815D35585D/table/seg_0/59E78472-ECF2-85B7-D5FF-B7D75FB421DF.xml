@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="59E78472-ECF2-85B7-D5FF-B7D75FB421DF" name="Tarjeta">
+<createdBy>brpin</createdBy>
+<createdTime>2022-08-30 22:50:23 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_tarjeta" id="2FB331D4-699C-43A2-76A7-BE3A84276A81">
+<createdBy>brpin</createdBy>
+<createdTime>2022-08-30 22:50:56 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_tarjeta" id="83A9DEE1-2E38-9572-9355-D8CB2D9C543A">
+<createdBy>brpin</createdBy>
+<createdTime>2022-08-30 22:50:56 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="5C86F286-6F7D-0436-46D4-595BED3D6FF4">
+<createdBy>brpin</createdBy>
+<createdTime>2022-08-30 22:50:56 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_creacion" id="32E7FF28-07AA-4E82-7467-F47E3935B365">
+<createdBy>Admin</createdBy>
+<createdTime>2022-10-23 22:18:21 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Progeso_Id_progreso" id="11228C28-9142-1F0F-3F0D-B21E987AE9C6">
+<createdBy>brpin</createdBy>
+<createdTime>2022-08-30 23:11:55 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>75C6A1E3-6890-1F65-0480-BF3E3621FB07</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81223CD2-E158-C2E4-677E-C57E70936728" referredColumn="75C6A1E3-6890-1F65-0480-BF3E3621FB07"/>
+</associations>
+</Column>
+<Column name="Mensaje_Id_mensaje" id="D9615F3E-EAAE-AC15-8C6E-9FD884B26BDD">
+<createdBy>brpin</createdBy>
+<createdTime>2022-10-02 23:27:41 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Equipo_Id_Equipo" id="7A19C3E8-FA62-4063-7595-796EF0147C31">
+<createdBy>Admin</createdBy>
+<createdTime>2022-10-13 23:37:53 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>40712326-B68D-4D18-FD68-4F87CD2E0133</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AAA5A83C-242D-E75B-9FBE-616B74B3CBC2" referredColumn="40712326-B68D-4D18-FD68-4F87CD2E0133"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DDC68783-B95E-0363-4498-2075FF415E5A" name="Tarjeta_PK">
+<createdBy>brpin</createdBy>
+<createdTime>2022-08-30 23:03:42 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FB331D4-699C-43A2-76A7-BE3A84276A81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA6B6087-E2F6-EB49-53B1-E46C7ADBA790" name="Tarjeta_Progeso_FK">
+<createdBy>brpin</createdBy>
+<createdTime>2022-08-30 23:11:55 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11228C28-9142-1F0F-3F0D-B21E987AE9C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="722BC152-3F58-05CB-A3B9-8E4BCA0F802B" name="Tarjeta_Equipo_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2022-10-13 23:37:53 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A19C3E8-FA62-4063-7595-796EF0147C31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="972CF20E-DA6E-3F88-6DF7-C330AC5C9DD2" name="Estado">
+<createdBy>brpin</createdBy>
+<createdTime>2022-08-30 22:48:50 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_estado" id="0C8CCE8B-5DC2-DF10-CFAC-9A828FCFF562">
+<createdBy>brpin</createdBy>
+<createdTime>2022-08-30 22:49:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="984B9FEF-BC36-7019-116A-B0120FB3D3AD">
+<createdBy>brpin</createdBy>
+<createdTime>2022-08-30 22:49:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="114D5D2A-C650-5FD9-EFB2-0693A95E5708" name="Estado_PK">
+<createdBy>brpin</createdBy>
+<createdTime>2022-08-30 22:59:32 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ModeloDatos5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C8CCE8B-5DC2-DF10-CFAC-9A828FCFF562"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
